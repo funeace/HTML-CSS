@@ -195,6 +195,7 @@ footer {
   background-size: cover;
   background-position: center;
 }
+
 .instagram-box:nth-child(1){
   background-image: url(img/airport.jpg);
 }
@@ -227,3 +228,191 @@ footer{
   color: #fff;
 }
 
+@media screen and (max-width: 1024px) {
+  .social{
+    display:none;
+  }
+
+  header{
+    width:100%;
+  }
+
+  .nav-list-item {
+    display:block;
+    margin-bottom:10px;
+    float:none;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  main {
+    width:100%;
+  }
+
+  .blog {
+    width:100%;
+    margin:0;
+  }
+
+  .blog-image{
+    width:48%;
+    margin-left:2%;
+  }
+  .blog-text{
+    padding-left:2%;
+    padding-top:30px;
+    width: 48%;
+  }
+
+  .pagination {
+  padding-top: 10px;
+  margin-bottom: 50px;
+  }
+
+  .sidebar {
+  width: 100%;
+  }
+
+  .sidebar-contents {
+    padding: 50px 2%;
+  }
+
+  .instagram-box {
+    width: 48%;
+    padding-top:48%;  /*この指定をすることにより、heightを指定せずサイズの指定が可能*/
+   margin-bottom: 4%;
+  }
+
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  .social{
+    display:none;
+  }
+
+  header{
+    width:100%;
+  }
+
+  .nav-list-item {
+    display:block;
+    margin-bottom:10px;
+    float:none;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  main {
+    width:100%;
+  }
+
+  .blog {
+    width:100%;
+    margin:0;
+  }
+
+  .blog-image{
+    width:48%;
+    margin-left:2%;
+  }
+  .blog-text{
+    padding-left:2%;
+    padding-top:30px;
+    width: 48%;
+  }
+
+  .pagination {
+  padding-top: 10px;
+  margin-bottom: 50px;
+  }
+
+  .sidebar {
+  width: 100%;
+  }
+
+  .sidebar-contents {
+    padding: 50px 2%;
+  }
+
+  .instagram-box {
+    width: 48%;
+    padding-top:48%;  /*この指定をすることにより、heightを指定せずサイズの指定が可能*/
+   margin-bottom: 4%;
+  }
+
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  }
+
+}
+
+@media screen and (max-width:425px) {
+  .social{
+    display:none;
+  }
+
+  header{
+    width:100%;
+  }
+
+  .nav-list-item {
+    display:block;
+    margin-bottom:10px;
+    float:none;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  main {
+    width:100%;
+  }
+
+  .blog {
+    width:100%;
+    margin:0;
+  }
+
+  .blog-image{
+    width:48%;
+    margin-left:2%;
+  }
+  .blog-text{
+    padding-left:2%;
+    padding-top:30px;
+    width: 48%;
+  }
+
+  .pagination {
+    padding-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .sidebar-contents {
+    padding: 50px 2%;
+  }
+
+  .instagram-box {
+    width: 48%;
+    padding-top:48%;  /*この指定をすることにより、heightを指定せずサイズの指定が可能*/
+    margin-bottom: 4%;
+  }
+
+.instagram-box:nth-child(odd) {
+  margin-right: 4%;
+}
+
+}
