@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+main {
+  margin:50px auto;
+  width: 960px;
+}
+
+.step {
+  display:inline-block;
+  width:300px;
+  border: solid 1px;
+  padding: 10px;
+  float: left;
+  margin-right:30px;
+  position:relative;/*親要素にrelativeを指定することで、子要素で指定するabsoluteでこの要素の左上が基準値となる*/
+}
+
+.step:nth-child(3) {
+  margin-right:0;
+}
+
+.step-icon {
+  position:absolute;
+  top:0;
+  left:0;
+  color:#fff;
+  background-color:orange;
+  padding:5px;
+}
+
+.step1-pic {
+  height:200px;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step2-pic {
+  height:200px;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step3-pic {
+  height:200px;
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
